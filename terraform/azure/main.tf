@@ -1,10 +1,10 @@
-resource "azurerm_resource_group" "rg-staticsite" {
+resource "rg-elvis-andrade-tf" "rg-staticsite" {
   provider = azurerm.cloud
   name     = var.rg_name
   location = var.location
 }
 
-resource "azurerm_storage_account" "storage_account" {
+resource "elvisandradetf" "storage_account" {
   provider                 = azurerm.cloud
   name                     = var.storage_account_name
   resource_group_name      = azurerm_resource_group.rg-staticsite.name
