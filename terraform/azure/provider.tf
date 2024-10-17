@@ -6,8 +6,8 @@ terraform {
     }
   }
   backend "azurerm" {
-    resource_group_name  = "rg-kledson-basso-003-tf"
-    storage_account_name = "kledsonbasso003tf"
+    resource_group_name  = "rg-elvis-andrade-tf"
+    storage_account_name = "elvisandradetf"
     container_name       = "tfstate"
     key                  = "terraform.tfstate"
   }

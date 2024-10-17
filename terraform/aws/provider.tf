@@ -6,9 +6,9 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "kledson-basso-003-tf"
+    bucket         = "elvis-andrade-tf"
     key            = "terraform.tfstate"
-    dynamodb_table = "kledson-basso-003-tf"
+    dynamodb_table = "elvis-andrade-tf"
     region         = "us-east-1"
   }
 }

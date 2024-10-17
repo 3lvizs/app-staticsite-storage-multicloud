@@ -1,5 +1,5 @@
 variable "bucket_name" {
-  default = "kledson-basso-003"
+  default = "elvis-andrade"
 }
 
 variable "website_endpoint" {
