@@ -1,6 +1,6 @@
 variable "storage_account_name" {
     type    = string
-    default = "elvisandradetf"
+    default = "elvisandrade"
 }
 
 variable "rg_name" {
